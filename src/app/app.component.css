@@ -1,0 +1,10 @@
+.body {
+    display: flex;
+    height: 100%;
+    FONT-WEIGHT: 700;
+    justify-content: flex-end;
+    align-items: center;
+    background: lightgray;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+}

@@ -1,0 +1,19 @@
+Info paciente component
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div>
+            <a [routerLink]="['/editar',indice]">
+            {{indice+1}}: {{pacienteInfo?.nombre}} {{pacienteInfo?.apellido}} {{pacienteInfo?.obraSocial}} {{pacienteInfo?.turno | date:'dd/MM/yyyy'}}
+            {{pacienteInfo?.horario}}
+            </a>
+            </div>
+            <app-modelo-paciente (modelosPaciente)="agregaModelos($event)"></app-modelo-paciente>
+            
+
+            <ul style="list-style: none;">
+                <li *ngFor="let modelo of arrayModelPaciente">{{modelo}}</li>
+              </ul>
+        </div>
+    </div>
+</div>

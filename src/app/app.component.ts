@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+//import { Paciente } from './pacientes.model';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'agenda';
+
+//Para el registro de Usuarios
+  // mensaje=""
+  // registrado=false
+  // nombre:string=''
+  // apellido:string=''
+
+
+
+  // registrarUsuario() {
+
+  //   this.registrado=true
+
+  //   this.mensaje="Usuario Registrado con exito"
+  // }
 }
+

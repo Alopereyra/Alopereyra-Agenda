@@ -1,0 +1,17 @@
+.login {
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    max-width: 330px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ancho {
+    width: 80%;
+}
+
+.button {
+    height: 40px;
+}

@@ -1,0 +1,37 @@
+
+<!--<div class="container">
+    <div class="col" style="text-align: center; margin-top: 20px;"><h1>{{titulo}}</h1></div>
+
+    <br><br>
+
+    <form class="form-group row">
+        <div class="form-group col-md-3">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control" [(ngModel)]="cuadroNombre">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="form-control" [(ngModel)]="cuadroApellido">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="obraSocial">Obra Social:</label>
+            <input type="text" name="obraSocial" id="obraSocial" placeholder="Obra Social" class="form-control" [(ngModel)]="cuadroObraSocial">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="turno">Turno:</label>
+            <input type="date" name="turno" id="turno" placeholder="" class="form-control" [(ngModel)]="cuadroTurno">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="horario">Horario de atencion:</label>
+            <input type="time" name="horario" id="horario" placeholder="" class="form-control" [(ngModel)]="cuadroHorario">
+        </div>
+
+        <div class="col">
+            <button type="submit" class="btn btn-primary" (click)="agregarPaciente()" style="margin-top: 25px;"> Agregar </button>
+        </div>
+
+
+    </form>
+</div>-->
+<br>
+<app-info-pacientes *ngFor="let paciente of pacientes; let i=index" [pacienteInfo]="paciente" [indice]="i"></app-info-pacientes>
